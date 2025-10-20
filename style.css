@@ -5,6 +5,16 @@ body {
   font-family: Lato, sans-serif;
 }
 
+.title {
+width: 0;  
+line-height: 0;
+}
+
+.add-wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -48,7 +58,7 @@ ul {
 }
 
 li,
-h3 {
+h2 {
   list-style: none;
 }
 
@@ -72,7 +82,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+h2,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
